@@ -246,7 +246,7 @@ ${name}`,
       <header className="navbar-wrap">
         <div className="navbar">
           <a className="brand" href="#home" aria-label="Akila Liyanage home">
-            <span className="brand-mark"><i /><img src="/logo.png" alt="Logo" className="brand-logo-img" /></span>
+            <span className="brand-mark"><i /><img src="/logo.png" alt="Akila Liyanage Logo" className="brand-logo-img" /></span>
             <span className="brand-copy"><strong>Akila Liyanage</strong><small>Full Stack Developer</small></span>
           </a>
 
@@ -278,8 +278,8 @@ ${name}`,
       <aside className="social-rail" aria-label="Social links">
         <span className="rail-caption">FOLLOW</span>
         <span className="rail-line" />
-        <a href={profile.github} target="_blank" rel="noreferrer" aria-label="GitHub"><Github /></a>
-        <a href={profile.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn"><Linkedin /></a>
+        <a href={profile.github} target="_blank" rel="me noopener noreferrer" aria-label="GitHub"><Github /></a>
+        <a href={profile.linkedin} target="_blank" rel="me noopener noreferrer" aria-label="LinkedIn"><Linkedin /></a>
         <a href={`mailto:${profile.email}`} aria-label="Email"><Mail /></a>
       </aside>
 
@@ -319,7 +319,7 @@ ${name}`,
                 <div className="portrait-border" />
                 <div className="portrait-frame">
                   {profile.profileImage ? (
-                    <img className="portrait-photo" src={profile.profileImage} alt="Akila Liyanage" />
+                    <img className="portrait-photo" src={profile.profileImage} alt="Akila Liyanage - Software Engineer &amp; Full Stack Developer" />
                   ) : (
                     <div className="portrait-placeholder">
                       <span className="profile-head" />
@@ -508,7 +508,7 @@ ${name}`,
             <div className="project-visual" data-tilt>
               <div className="browser-bar"><span><i /><i /><i /></span><small>{featured.title.toLowerCase()}.app</small><b>LIVE PREVIEW</b></div>
               <div className="project-image-shell">
-                <img src={featured.image} alt={`${featured.title} project preview`} />
+                <img src={featured.image} alt={`${featured.title} - Project by Akila Liyanage`} loading="lazy" />
                 <div className="project-sheen" />
               </div>
               <span className="project-index">0{activeProject + 1}</span>
@@ -609,7 +609,7 @@ ${name}`,
                   <span className="contact-link-copy"><strong>Start with an email</strong><small>Send me a message</small></span>
                   <ArrowUpRight className="contact-link-arrow" />
                 </a>
-                <a href={profile.linkedin} target="_blank" rel="noreferrer" className="contact-link-card">
+                <a href={profile.linkedin} target="_blank" rel="me noopener noreferrer" className="contact-link-card">
                   <span className="contact-link-icon"><Linkedin /></span>
                   <span className="contact-link-copy"><strong>Connect on LinkedIn</strong><small>Let’s build something great</small></span>
                   <ArrowUpRight className="contact-link-arrow" />
@@ -669,9 +669,9 @@ ${name}`,
       </main>
 
       <footer>
-        <a className="brand" href="#home"><span className="brand-mark"><i /><img src="/logo.png" alt="Logo" className="brand-logo-img" /></span><span className="brand-copy"><strong>Akila Liyanage</strong><small>Software Engineer</small></span></a>
+        <a className="brand" href="#home"><span className="brand-mark"><i /><img src="/logo.png" alt="Akila Liyanage Logo" className="brand-logo-img" /></span><span className="brand-copy"><strong>Akila Liyanage</strong><small>Software Engineer</small></span></a>
         <p>Designed with intention by {profile.name}.</p>
-        <div><a href={profile.github} target="_blank" rel="noreferrer">GitHub</a><a href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn</a><span>© 2026</span></div>
+        <div><a href={profile.github} target="_blank" rel="me noopener noreferrer">GitHub</a><a href={profile.linkedin} target="_blank" rel="me noopener noreferrer">LinkedIn</a><span>© 2026</span></div>
       </footer>
     </div>
   )
