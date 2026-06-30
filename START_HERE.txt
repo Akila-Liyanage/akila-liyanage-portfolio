@@ -1,0 +1,21 @@
+AKILA LIVE MOTION PORTFOLIO
+===========================
+
+1. Open this folder in VS Code.
+2. Open a terminal in this folder.
+3. Run: npm install
+4. Run: npm run dev
+5. Open the address shown in the terminal.
+
+ADD YOUR PHOTO
+--------------
+Copy your image to: public/profile.jpg
+Then open: src/data/portfolio.ts
+Change profileImage: '' to profileImage: '/profile.jpg'
+
+EDIT DETAILS
+------------
+All personal details and project content are in:
+src/data/portfolio.ts
+
+There are no BAT launcher files in this project.

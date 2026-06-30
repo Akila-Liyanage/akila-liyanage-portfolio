@@ -1,0 +1,31 @@
+<svg width="1280" height="800" viewBox="0 0 1280 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="800"><stop stop-color="#0A1020"/><stop offset="1" stop-color="#080C16"/></linearGradient>
+  <linearGradient id="a" x1="150" y1="100" x2="1080" y2="700"><stop stop-color="#3c8cff"/><stop offset="1" stop-color="#38d7c6"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="80"/></filter>
+  <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="35" stdDeviation="40" flood-color="#000" flood-opacity=".45"/></filter>
+</defs>
+<rect width="1280" height="800" fill="url(#bg)"/>
+<circle cx="1100" cy="100" r="250" fill="#3c8cff" fill-opacity=".18" filter="url(#blur)"/>
+<circle cx="170" cy="700" r="230" fill="#38d7c6" fill-opacity=".13" filter="url(#blur)"/>
+<g opacity=".12"><path d="M0 120H1280M0 240H1280M0 360H1280M0 480H1280M0 600H1280M0 720H1280" stroke="white"/><path d="M160 0V800M320 0V800M480 0V800M640 0V800M800 0V800M960 0V800M1120 0V800" stroke="white"/></g>
+<g filter="url(#shadow)">
+<rect x="105" y="88" width="1070" height="630" rx="34" fill="#0D1425" stroke="white" stroke-opacity=".12"/>
+<rect x="105" y="88" width="1070" height="66" rx="34" fill="#121A2E"/>
+<circle cx="145" cy="121" r="7" fill="#FF6B6B"/><circle cx="171" cy="121" r="7" fill="#FFD166"/><circle cx="197" cy="121" r="7" fill="#58D68D"/>
+<rect x="250" y="111" width="360" height="20" rx="10" fill="white" fill-opacity=".07"/>
+<rect x="105" y="154" width="225" height="564" fill="#0A1120"/>
+<rect x="137" y="196" width="155" height="16" rx="8" fill="url(#a)"/>
+<rect x="137" y="248" width="118" height="13" rx="6.5" fill="white" fill-opacity=".12"/><rect x="137" y="292" width="138" height="13" rx="6.5" fill="white" fill-opacity=".08"/><rect x="137" y="336" width="104" height="13" rx="6.5" fill="white" fill-opacity=".08"/><rect x="137" y="380" width="128" height="13" rx="6.5" fill="white" fill-opacity=".08"/>
+<circle cx="188" cy="642" r="28" fill="url(#a)"/><rect x="229" y="624" width="72" height="10" rx="5" fill="white" fill-opacity=".18"/><rect x="229" y="643" width="50" height="8" rx="4" fill="white" fill-opacity=".08"/>
+<text x="380" y="224" fill="white" font-family="Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="3">CEYLONCATCH</text>
+<text x="380" y="267" fill="#94A3B8" font-family="Arial, sans-serif" font-size="18">Live auction</text>
+<rect x="380" y="305" width="330" height="154" rx="22" fill="white" fill-opacity=".035" stroke="white" stroke-opacity=".1"/>
+<rect x="736" y="305" width="385" height="154" rx="22" fill="white" fill-opacity=".035" stroke="white" stroke-opacity=".1"/>
+<text x="410" y="351" fill="#94A3B8" font-family="Arial, sans-serif" font-size="14">PRIMARY METRIC</text><text x="410" y="411" fill="white" font-family="Arial, sans-serif" font-size="39" font-weight="700">LKR 8,450</text>
+<text x="766" y="351" fill="#94A3B8" font-family="Arial, sans-serif" font-size="14">LIVE STATUS</text><text x="766" y="411" fill="white" font-family="Arial, sans-serif" font-size="39" font-weight="700">12 bids</text>
+<rect x="380" y="489" width="741" height="181" rx="22" fill="white" fill-opacity=".03" stroke="white" stroke-opacity=".1"/>
+<path d="M417 620C472 595 510 624 565 569C615 519 663 605 718 550C769 499 829 569 884 520C932 478 990 535 1083 464" stroke="url(#a)" stroke-width="8" stroke-linecap="round"/>
+<path d="M417 620C472 595 510 624 565 569C615 519 663 605 718 550C769 499 829 569 884 520C932 478 990 535 1083 464V646H417V620Z" fill="url(#a)" fill-opacity=".12"/>
+</g>
+</svg>
