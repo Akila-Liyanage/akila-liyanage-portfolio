@@ -2,6 +2,8 @@
 
 A premium, motion-rich personal portfolio built with React, TypeScript, Vite and Tailwind CSS.
 
+akila-liyanage-eosin.vercel.app
+
 ## Visual features
 
 - Separate floating glass navigation bar
